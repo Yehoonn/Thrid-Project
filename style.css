@@ -1,0 +1,44 @@
+.head-line {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .head-line svg {
+    width: 430px;
+  }
+  
+  .menus {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 1px solid rgba(128, 128, 128, 0.437);
+    border-bottom: 5px double black;
+  }
+  
+  .menus button {
+    border: none;
+    background: none;
+    margin: 5px;
+  }
+  
+  .menus button:hover {
+    background-color: rgba(128, 128, 128, 0.507);
+  }
+  
+  .news-img-size {
+    max-width: 100%;
+    max-height: 250px;
+  }
+  
+  .news {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+  }
+  
+  .search-zone{
+      margin-top: 30px;
+      
+  }
