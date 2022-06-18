@@ -15,10 +15,12 @@
   </head>
   <body>
     <section class="container">
-        <section class = "search-zone">
-            <input type = "text"  placeholder = "검색" id = "user" onkeyup = "enterKey()">
-            <button id = "search"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </section>
+      <section class="search-zone">
+        <input type="text" placeholder="검색" id="user" onkeyup="enterKey()" />
+        <button id="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </section>
       <section>
         <div class="head-line">
           <svg viewBox="0 0 184 25" fill="#000">
@@ -44,9 +46,17 @@
         </div>
       </section>
       <section id="news-board"></section>
+      <nav aria-label="Page navigation example"></nav>
+      <ul
+        class="pagination"
+        style="justify-content: center; margin-top: 20px"
+      ></ul>
     </section>
 
-    <script src="https://kit.fontawesome.com/40b01548e0.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/40b01548e0.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.0/moment.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
